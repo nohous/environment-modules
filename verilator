@@ -1,0 +1,6 @@
+#%Module
+set install_root /home/nohous/opt/verilator
+unsetenv VERILATOR_ROOT
+prepend-path PATH $install_root/bin
+prepend-path MANPATH $install_root/man1
+prepend-path PKG_CONFIG_PATH $install_root/share/pkgconfig

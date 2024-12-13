@@ -1,0 +1,3 @@
+#%Module
+set install_root /home/nohous/opt/intelFPGA_lite/23.1std/quartus/bin/
+prepend-path PATH $install_root

@@ -1,0 +1,4 @@
+#%Module
+
+source-sh bash /home/nohous//metrics-ca/dsim/20240923.1.0/shell_activate.bash
+setenv DSIM_LICENSE /home/nohous/Downloads/dsim-license.json

@@ -1,0 +1,4 @@
+#%Module
+set install_root /home/nohous/opt/intelFPGA_lite/23.1std/questa_fse/bin/
+setenv LM_LICENSE_FILE /home/nohous/lic/LR-193600_License.dat
+prepend-path PATH $install_root

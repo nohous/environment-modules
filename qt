@@ -1,0 +1,3 @@
+#%Module
+set install_root /opt/Qt/Tools/QtCreator/bin
+prepend-path PATH $install_root

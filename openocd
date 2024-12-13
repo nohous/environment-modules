@@ -1,0 +1,6 @@
+#%Module
+
+set install_root /home/nohous/opt/openocd
+prepend-path PATH $install_root/bin
+prepend-path LD_LIBRARY_PATH $install_root/lib
+prepend-path MANPATH $install_root/share/man
