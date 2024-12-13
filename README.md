@@ -1,5 +1,10 @@
 # Environment modules
 
+Clone this repo to your home directory:
+```shell
+git clone https://github.com/nohous/environment-modules ~/modules
+```
+
 ## Setup
 On ubuntu 24.04, install `environment-modules` package.
 Append to your `~/.bashrc`:
@@ -21,8 +26,6 @@ Re-login for changes
 Listing available and loaded modules:
 
 ```console
-$ module avail
-
 nohous@uss-lollipop:~/modules$ module avail
 ----------------------------------------- /home/nohous/modules -----------------------------------------
 dsim     ghdl     qt       questa-intel  verilator  vivado-2019.2  
